@@ -1,0 +1,2 @@
+1. The bug is that result is type string and the numbers are just strings that are joined together.
+2. I would put Number() encapsulating num1 and num2 to convert the names into numbers and the math operation will be correct.
