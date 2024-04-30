@@ -17,9 +17,31 @@ hello world
     d.student["Favorite Teacher"]["name"]
     e.student.courseLoad[0]
 13. 
+    a. 32, because 2 maps to the character '2' which makes '3' + '2' = 32
+    b. 1, because '3' maps to the number 3 so 3 - 2 = 1
+    c. 3, because null maps to 0 so 3 + 0 = 3
+    d. 3null, because null maps to the word "null" which is appended to '3'
+    e. 4, because true maps to 1 so 1 + 3 = 4
+    f. 0, because false and null are numerically 0
+    g. 3undefined, because undefined becomes text and is appended to '3'
+    h. NaN, because there you cannot subtract letters
 14. 
-15. 
+    a. true, because '2' becomes numerical 2 
+    b. false, because '12' is alphanumerically before '2' 
+    c. true, because '2' becomes numerical 2
+    d. false, because 2 and '2' are different types
+    e. false, because true converts to 1 and 1 != 2
+    f. true, because Boolean(2) is true and the types are matching
+15. == offers type correction to the variables when comparing while === requires both sides to be the same type to compare
 16. 
-17.
-18.
+    21
+    45
+    5
+    2
+17. [ 2, 4, 6 ] is the result. doSomething is a function saved into callback. [1,2,3] is saved into array. The for loop applies callback to each element of array.
+18. OK
 19.
+    1
+    4
+    3
+    2
